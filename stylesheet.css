@@ -3,6 +3,8 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
+  font-family: 'Roboto';
+   
 }
 
 .top-section {
@@ -13,14 +15,37 @@ body {
   padding-bottom: 100px;
 }
 
+.footer{
+  background-color: #1F2937;  
+  width: 100%;
+  height: 50%;
+  color: #F9FAF8;
+  padding: 50px 50px;
+ 
+  display: flex;
+ 
+  justify-content: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+ 
+.logo, .bigbuttonheader {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .background {
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
 }
 .headernav  {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 75px;
 }
 
 .info-top {
@@ -30,18 +55,101 @@ body {
 .top-left, .headernav,.top-right {
   flex: 1;
 }
-
-li {
-  list-style-type: none;
-  display: inline;
-}
-
-a {
-  text-decoration: none;
-  color:#F9FAF8;
+.lower-middle {
+  height: 50%;
+  width: 100%;
+  background-color: #e5e7eb
   
 }
 
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  color: #1F2937;
+}
+
+.author {
+  text-align: center;
+  padding-left: 600px;
+  padding-bottom: 100px;
+  font-weight: bolder;
+}
+
+
+.lower-background {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+.middle-upper-container {
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: center;
+  gap: 50px;
+}
+.subtext {
+  width: 150px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.box {
+  border-style: solid;
+  border-color: #3882F6;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.lowerbutton {
+  display: flex;
+  gap: 100px;
+
+}
+.lower {
+  display: flex;
+  border-style: none;
+  width: 900px;
+  height: 120px;
+  background-color: #3882F6;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+  border-radius: 10px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  
+}
+
+.signup2 {
+  background-color: #3882F6;
+  border-style: solid;
+  border-color: #e5e7eb;
+  color: #F9FAF8;
+  padding: 6px 16px;
+  border-radius: 4px;
+  
+  max-width: 110px;
+  max-height: 30px;
+
+  font-weight: bold;
+
+}
+
+
+
+.randomInfo {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 40px;
+}
 
 .signup {
   background-color: #3882F6;
@@ -51,6 +159,7 @@ a {
   border-radius: 4px;
   margin-top: -10px;
   max-width: 100px;
+  font-weight: bold;
 
 }
 
@@ -59,3 +168,14 @@ h1 {
   margin-bottom: -15px;
 }
 
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color:#F9FAF8;
+  
+}
